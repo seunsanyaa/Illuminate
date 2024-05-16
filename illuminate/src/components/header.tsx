@@ -146,10 +146,20 @@ export default function Header() {
           <Link href={"/auth"}>
             <span>SignUp/Login</span>
           </Link>
+
+
+
+          <Link href={"/privay-policy"}>
+            <span>Privacy-Policy</span>
+          </Link>
+
+          <Link href={"/contact-us"}>
+            <span>Contact</span>
+          </Link>
         </div>
 
-        <div className="bg-black flex p-2 rounded-lg">
-          <input placeholder="Search" className="bg-black rounded" />
+        <div className="bg-black flex p-2 px-4 rounded-lg items-center">
+          <input placeholder="Search" className="bg-black rounded border-none" />
 
           <svg
             width="16"

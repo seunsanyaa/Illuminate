@@ -136,9 +136,6 @@ export default function Header() {
             <span>Blog </span>
           </Link>
 
-          <Link href={"/createPost"}>
-            <span>CreatePost </span>
-          </Link>
 
           <Link href={"/auth"}>
             <span>SignUp/Login</span>
