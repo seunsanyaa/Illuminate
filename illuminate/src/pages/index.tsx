@@ -19,14 +19,14 @@ export default function Home() {
       <Banner />
 
 
-      <h2 className="font-semibold text-2xl py-10 pt-20">
+      <h2 className="font-semibold text-2xl py-10 pt-20 pb-0">
       Latest Post
       </h2>
-      <div className="flex gap-10">
+      <div >
 
       <LatestPost/>
 
-      <LatestPost/>
+
 
       </div>
     </>
