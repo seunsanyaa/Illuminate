@@ -1,51 +1,46 @@
 
-// const navigation = [
-//   { name: "Product", href: "#" },
-//   { name: "Features", href: "#" },
-//   { name: "Resources", href: "#" },
-//   { name: "Company", href: "#" },
-// ];
+
 const stats = [
-  { label: "Transactions every 24 hours", value: "44 million" },
-  { label: "Assets under holding", value: "$119 trillion" },
-  { label: "New users annually", value: "46,000" },
+  { label: "Active Users", value: "10,000" },
+  { label: "Content Post", value: "500" },
+  { label: "New Articles", value: "200" },
 ];
 const values = [
   {
-    name: "Be world-class",
+    name: "Authenticity",
     description:
-      "Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.",
-  },
+`We believe in being genuine and transparent. Our reviews, interviews, and articles are crafted with honesty and integrity, ensuring our readers can trust our perspectives and insights.`  },
   {
-    name: "Share everything you know",
+    name: "Innovation",
     description:
-      "Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.",
-  },
+"We are committed to staying at the forefront of the music and entertainment industries. By embracing new trends, technologies, and creative approaches, we continually evolve to bring fresh, relevant content to our audience."  },
   {
-    name: "Always learning",
+    name: "Inclusivity",
     description:
-      "Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.",
-  },
+"We celebrate diversity and strive to create a welcoming environment for everyone. Our content reflects a wide range of voices, genres, and cultures, ensuring that every reader feels seen and valued."  },
   {
-    name: "Be supportive",
+    name: "Our Community",
     description:
-      "Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.",
-  },
+"At the heart of Illuminate is our community. We value the voices of our readers and contributors, encouraging discussions and exchanges that enrich our collective experience. By connecting people through shared interests and passions, we aim to create a space where everyone feels welcome and inspired."  },
   {
-    name: "Take responsibility",
+    name: "Join Us",
     description:
-      "Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.",
-  },
+"We invite you to explore our articles, participate in conversations, and immerse yourself in the world of music and entertainment. Whether you're here to discover new artists, delve into cultural trends, or simply enjoy quality content, we are here to guide you on your journey."  },
   {
-    name: "Enjoy downtime",
+    name: "Thank You",
     description:
-      "Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.",
-  },
+"Thank you for being a part of Illuminate. Together, we're changing the way people connect with music and entertainment, one story at a time."  },
 ];
 const team = [
   {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
+    name: "Samuel Dan",
+    role: "Author",
+    imageUrl:
+      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+  },
+  {
+    name: "Seunsanyaa",
+    role: "Author",
     imageUrl:
       "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
   },
@@ -54,54 +49,64 @@ const team = [
 const blogPosts = [
   {
     id: 1,
-    title: "Boost your conversion rate",
-    href:"/inner-blog" ,
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    title: "Anna Salman shares debut EP",
+    href: "/inner-blog",
+    description: `Anna Salman, a rising star in indie pop music, has just released her debut EP, 'This Summer Won't Last.' The album is  getting much attention from music lovers. The EP is a collection of seven…`,
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      "https://res.cloudinary.com/seunsanyaa/image/upload/v1716064346/photo-1496128858413-b36217c2ce36_2_wikbtr.png",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
+    category: { title: "Folk / Indie / Pop", href: "#" },
     author: {
       name: "Michael Foster",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-  },
-  {
-    id: 2,
-    title: "Boost your conversion rate",
-    href:"/inner-blog" ,
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    author: {
-      name: "Michael Foster",
+      role: "Auhor",
+      href: "#",
       imageUrl:
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
 
   {
-    id: 3,
-    title: "Boost your conversion rate",
-    href:"/inner-blog" ,
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    id: 2,
+    title: "Mortal Prophets shares a haunting single",
+    href: "/inner-blog",
+    description: `Mortal Prophets recently launched "HANUSSEN: The 
+    Enigmatic Clairvoyant," an eleven-act opera that tells 
+    the story of Erik Jan Hanussen, an Austrian mystic, 
+    through a blend of voices,…
+    `,
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      "https://res.cloudinary.com/seunsanyaa/image/upload/v1716064353/photo-1496128858413-b36217c2ce36_1_kf2ssv.png",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
+    category: { title: "Electronic / Indie / Pop", href: "#" },
     author: {
       name: "Michael Foster",
+      role: "Auhor",
+      href: "#",
       imageUrl:
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
-  // More posts...
+  {
+    id: 3,
+    title: "Estella Dawn drops visuals for new single “Big Enough” [Video]",
+    href: "/inner-blog",
+    description:
+      "Hard working New Zealand-born experimental artist Estella Dawn continues her slew of releases with her latest drop titled . The track is an anthemic piece that slowly builds up…",
+    imageUrl:
+      "https://res.cloudinary.com/seunsanyaa/image/upload/v1716064357/photo-1496128858413-b36217c2ce36_io2oyx.png",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Pop / R&B", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Auhor",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
 ];
 
 
@@ -161,12 +166,7 @@ export default function AboutComponent() {
                     We’re changing the way people connect.
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-white sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                    quis cupidatat mollit aute velit. Et labore commodo nulla
-                    aliqua proident mollit ullamco exercitation tempor. Sint
-                    aliqua anim nulla sunt mollit id pariatur in voluptate
-                    cillum. Eu voluptate tempor esse minim amet fugiat veniam
-                    occaecat aliqua.
+                  At Illuminate, we believe in the transformative power of music and entertainment to bring people together. We envision a world where music and entertainment are not just consumed but experienced, shared, and celebrated. Through our diverse content, we strive to bridge the gap between artists and audiences, fostering a deeper appreciation and understanding of the creative arts.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -231,26 +231,15 @@ export default function AboutComponent() {
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-white">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas ac. Diam nulla orci at in viverra
-                  scelerisque eget. Eleifend egestas fringilla sapien.
+                Our mission is to redefine how individuals connect with the world of music, movies, and cultural events. We aim to create a vibrant community where passion meets discovery, and where every reader finds something that resonates with their soul.
+
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-white">
                   <p>
-                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                    risus enim. Mattis mauris semper sed amet vitae sed turpis
-                    id. Id dolor praesent donec est. Odio penatibus risus
-                    viverra tellus varius sit neque erat velit. Faucibus commodo
-                    massa rhoncus, volutpat. Dignissim sed eget risus enim.
-                    Mattis mauris semper sed amet vitae sed turpis id.
+                  We aim to ignite passion and curiosity through engaging content that covers the latest trends, timeless classics, and everything in between. Our goal is to inspire our readers to explore new genres, artists, and forms of entertainment, broadening their horizons and deepening their appreciation for the arts.
                   </p>
                   <p className="mt-10">
-                    Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                    duis odio id et. Id blandit molestie auctor fermentum
-                    dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                    varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                    convallis ac tempor et ut. Ac lorem vel integer orci.
+                  Our mission is to be a trusted guide in the ever-evolving landscape of music and entertainment. We strive to help our readers discover hidden gems and emerging talents, providing insightful reviews, thoughtful analyses, and engaging interviews that highlight the richness and diversity of the creative world.
                   </p>
                 </div>
               </div>
@@ -278,7 +267,7 @@ export default function AboutComponent() {
         {/* Image section */}
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
-            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
+            src="https://res.cloudinary.com/seunsanyaa/image/upload/v1716064612/photo-1529156069898-49953e39b3ac_tiiwxg.png"
             alt=""
             className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
           />
@@ -291,8 +280,8 @@ export default function AboutComponent() {
               Our values
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            At Illuminate, our core values guide everything we do. These principles shape our content, our community interactions, and our overall mission to connect people through the power of music and entertainment.
+
             </p>
           </div>
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">

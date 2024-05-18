@@ -5,105 +5,64 @@ export default function Blog() {
   const posts = [
     {
       id: 1,
-      title: "Boost your conversion rate",
-      href:"/inner-blog" ,
-      description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      title: "Anna Salman shares debut EP",
+      href: "/inner-blog",
+      description: `Anna Salman, a rising star in indie pop music, has just released her debut EP, 'This Summer Won't Last.' The album is  getting much attention from music lovers. The EP is a collection of seven…`,
       imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+        "https://res.cloudinary.com/seunsanyaa/image/upload/v1716064346/photo-1496128858413-b36217c2ce36_2_wikbtr.png",
       date: "Mar 16, 2020",
       datetime: "2020-03-16",
+      category: { title: "Folk / Indie / Pop", href: "#" },
       author: {
         name: "Michael Foster",
+        role: "Auhor",
+        href: "#",
         imageUrl:
           "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       },
     },
+  
     {
       id: 2,
-      title: "Boost your conversion rate",
-      href:"/inner-blog" ,
-      description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      title: "Mortal Prophets shares a haunting single",
+      href: "/inner-blog",
+      description: `Mortal Prophets recently launched "HANUSSEN: The 
+      Enigmatic Clairvoyant," an eleven-act opera that tells 
+      the story of Erik Jan Hanussen, an Austrian mystic, 
+      through a blend of voices,…
+      `,
       imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+        "https://res.cloudinary.com/seunsanyaa/image/upload/v1716064353/photo-1496128858413-b36217c2ce36_1_kf2ssv.png",
       date: "Mar 16, 2020",
       datetime: "2020-03-16",
+      category: { title: "Electronic / Indie / Pop", href: "#" },
       author: {
         name: "Michael Foster",
+        role: "Auhor",
+        href: "#",
         imageUrl:
           "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       },
     },
-
     {
       id: 3,
-      title: "Boost your conversion rate",
-      href:"/inner-blog" ,
+      title: "Estella Dawn drops visuals for new single “Big Enough” [Video]",
+      href: "/inner-blog",
       description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+        "Hard working New Zealand-born experimental artist Estella Dawn continues her slew of releases with her latest drop titled . The track is an anthemic piece that slowly builds up…",
       imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+        "https://res.cloudinary.com/seunsanyaa/image/upload/v1716064357/photo-1496128858413-b36217c2ce36_io2oyx.png",
       date: "Mar 16, 2020",
       datetime: "2020-03-16",
+      category: { title: "Pop / R&B", href: "#" },
       author: {
         name: "Michael Foster",
+        role: "Auhor",
+        href: "#",
         imageUrl:
           "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       },
     },
-
-    {
-      id: 4,
-      title: "Boost your conversion rate",
-      href:"/inner-blog" ,
-      description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-      date: "Mar 16, 2020",
-      datetime: "2020-03-16",
-      author: {
-        name: "Michael Foster",
-        imageUrl:
-          "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      },
-    },
-
-    {
-      id: 5,
-      title: "Boost your conversion rate",
-      href:"/inner-blog" ,
-      description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-      date: "Mar 16, 2020",
-      datetime: "2020-03-16",
-      author: {
-        name: "Michael Foster",
-        imageUrl:
-          "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      },
-    },
-
-    {
-      id: 6,
-      title: "Boost your conversion rate",
-      href:"/inner-blog" ,
-      description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-      date: "Mar 16, 2020",
-      datetime: "2020-03-16",
-      author: {
-        name: "Michael Foster",
-        imageUrl:
-          "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      },
-    },
-    // More posts...
   ];
 
   return (

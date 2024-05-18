@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import Head from 'next/head'
@@ -54,8 +55,7 @@ export default function PrivaxyPolicy() {
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-white">Get in touch</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
+            We'd love to hear from you! Whether you have questions, feedback, or just want to share your thoughts, feel free to reach out. Connect with us via email, follow us on our social media channels, or fill out the contact form below. Your insights and suggestions help us grow and improve, so don’t hesitate to get in touch!
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
@@ -64,9 +64,9 @@ export default function PrivaxyPolicy() {
                   <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  545 Mavis Island
+              Eastern mediterranean university
                   <br />
-                  Chicago, IL 99191
+                 
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -87,7 +87,7 @@ export default function PrivaxyPolicy() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="mailto:hello@example.com">
-                    hello@example.com
+                  19700418@emu.edu.tr
                   </a>
                 </dd>
               </div>

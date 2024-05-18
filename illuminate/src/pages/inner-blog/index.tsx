@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 
 export default function InnerBlog() {
@@ -31,11 +32,10 @@ export default function InnerBlog() {
                 href="#"
                 className="mb-2 inline-flex items-center justify-center bg-black px-4 py-1 text-white"
               >
-                Nutrition
+ Indie / R&B
               </a>
               <h2 className="text-4xl font-semibold leading-tight text-gray-100">
-                Pellentesque a consectetur velit, ac molestie ipsum. Donec
-                sodales, massa et auctor.
+              Adi Oasis teams up with Durand Bernarr for "Le Départ" and announces deluxe version of her album 'Lotus Glow'
               </h2>
               <div className="mt-3 flex">
                 <img
@@ -45,9 +45,9 @@ export default function InnerBlog() {
                 <div>
                   <p className="text-sm font-semibold text-white">
                     {" "}
-                    Mike Sullivan{" "}
+                  Samueal Dan
                   </p>
-                  <p className="text-xs font-semibold text-white"> 14 Aug </p>
+                  <p className="text-xs font-semibold text-white"> May 2, 2024 </p>
                 </div>
               </div>
             </div>
@@ -55,43 +55,19 @@ export default function InnerBlog() {
 
           <div className="mx-auto mt-12 max-w-screen-md px-4 text-lg leading-relaxed text-white lg:px-0">
             <p className="pb-6">
-              Advantage old had otherwise sincerity dependent additions. It in
-              adapted natural hastily is justice. Six draw you him full not mean
-              evil. Prepare garrets it expense windows shewing do an. She
-              projection advantages resolution son indulgence. Part sure on no
-              long life am at ever. In songs above he as drawn to. Gay was
-              outlived peculiar rendered led six.
+            Multi-faceted artist, producer, and songwriter Adi Oasis kicks off the month of May with her new single "Le Départ", which comes off the heels of her collaboration "Multiply" featuring renowned Brazilian, Grammy-nominated singer Luedji Luna. 
             </p>
 
             <p className="pb-6">
-              Difficulty on insensible reasonable in. From as went he they.
-              Preference themselves me as thoroughly partiality considered on in
-              estimating. Middletons acceptance discovered projecting so is so
-              or. In or attachment inquietude remarkably comparison at an. Is
-              surrounded prosperous stimulated am me discretion expression. But
-              truth being state can she china widow. Occasional preference fat
-              remarkably now projecting uncommonly dissimilar. Sentiments
-              projection particular companions interested do at my delightful.
-              Listening newspaper in advantage frankness to concluded unwilling.
+            The new single pairs her with fellow vocalist Durand Bernarr, and together- they deliver an astonishing piece that explores the intricacies of love and life's unpredictability in putting us exactly where we are destined to be. 
             </p>
 
             <p className="pb-6">
-              Adieus except say barton put feebly favour him. Entreaties
-              unpleasant sufficient few pianoforte discovered uncommonly ask.
-              Morning cousins amongst in mr weather do neither. Warmth object
-              matter course active law spring six. Pursuit showing tedious
-              unknown winding see had man add. And park eyes too more him.
-              Simple excuse active had son wholly coming number add. Though all
-              excuse ladies rather regard assure yet. If feelings so prospect no
-              as raptures quitting.
+            The production is ramped up by a layered funk-soul assemble. Ripe with pulsating basslines, sublime piano arrangements with warm guitar licks, and a soft drum groove to match Adi and Durand's honeyed melodic runs and heartfelt songwriting that tugs at the heart. The original version of "Le Départ" appeared on her album Lotus Glow.
             </p>
 
             <div className="mb-6 rounded border-l-4 border-gray-500 pl-4 italic">
-              Sportsman do offending supported extremity breakfast by listening.
-              Decisively advantages nor expression unpleasing she led met.
-              Estate was tended ten boy nearer seemed. As so seeing latter he
-              should thirty whence. Steepest speaking up attended it as. Made
-              neat an on be gave show snug tore.
+            French-Caribbean singer, bassist and producer Adi Oasis (FKA Adeline) spent most of the pandemic soothing our frazzled nerves with a constant stream of soulful, heartwarming songs, including 2 EPs, collaborations with Masego, Blue Lab Beats, Pastel, Kamauu, Yakul, Jean Tonique and more. Her unique blend of funk, R&B and soul got us through the long hard months as we watched our world go up in flames, both literally and figuratively.
             </div>
 
             <p className="pb-6">
@@ -105,45 +81,10 @@ export default function InnerBlog() {
             </p>
 
             <h2 className="mb-4 mt-4 text-2xl font-semibold text-white">
-              Uneasy barton seeing remark happen his has
-            </h2>
+            Connect with Adi Oasis: Website | Facebook | Spotify | TikTok | Instagram            </h2>
 
-            <p className="pb-6">
-              Guest it he tears aware as. Make my no cold of need. He been past
-              in by my hard. Warmly thrown oh he common future. Otherwise
-              concealed favourite frankness on be at dashwoods defective at.
-              Sympathize interested simplicity at do projecting increasing
-              terminated. As edward settle limits at in.
-            </p>
 
-            <p className="pb-6">
-              Dashwood contempt on mr unlocked resolved provided of of. Stanhill
-              wondered it it welcomed oh. Hundred no prudent he however smiling
-              at an offence. If earnestly extremity he he propriety something
-              admitting convinced ye. Pleasant in to although as if differed
-              horrible. Mirth his quick its set front enjoy hoped had there. Who
-              connection imprudence middletons too but increasing celebrated
-              principles joy. Herself too improve gay winding ask expense are
-              compact. New all paid few hard pure she.
-            </p>
-
-            <p className="pb-6">
-              Breakfast agreeable incommode departure it an. By ignorant at on
-              wondered relation. Enough at tastes really so cousin am of.
-              Extensive therefore supported by extremity of contented. Is
-              pursuit compact demesne invited elderly be. View him she roof tell
-              her case has sigh. Moreover is possible he admitted sociable
-              concerns. By in cold no less been sent hard hill.
-            </p>
-
-            <p className="pb-6">
-              Detract yet delight written farther his general. If in so bred at
-              dare rose lose good. Feel and make two real miss use easy.
-              Celebrated delightful an especially increasing instrument am.
-              Indulgence contrasted sufficient to unpleasant in in insensible
-              favourable. Latter remark hunted enough vulgar say man. Sitting
-              hearted on it without me.
-            </p>
+     
           </div>
         </main>
       </div>
