@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
         <meta name="description" content="Illuminate" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      {/* <Header /> */}
 
 
       <div className="bg-white text-black">

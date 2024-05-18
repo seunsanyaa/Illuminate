@@ -7,6 +7,7 @@ import { api } from "~/utils/api";
 
 import Footer from "~/components/footer";
 import "~/styles/globals.css";
+import Header from "~/components/header";
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,
@@ -15,6 +16,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
   return (
     <SessionProvider session={session}>
       <main className={GeistSans.className}>
+      <Header />
         <Component {...pageProps} />
         <Footer/>
       </main>
