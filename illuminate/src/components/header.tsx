@@ -149,7 +149,7 @@ export default function Header() {
 
 
 
-          <Link href={"/privay-policy"}>
+          <Link href={"/privacy-policy"}>
             <span>Privacy-Policy</span>
           </Link>
 

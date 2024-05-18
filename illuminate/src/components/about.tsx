@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useState, type JSX, type SVGProps } from 'react'
 
 const navigation = [
@@ -393,8 +394,9 @@ export default function AboutComponent() {
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {blogPosts.map((post) => (
+                        <Link   href={'/inner-blog'}                 key={post.id}   >
               <article
-                key={post.id}
+
                 className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
               >
                 <img src={post.imageUrl} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
@@ -422,6 +424,8 @@ export default function AboutComponent() {
                   </a>
                 </h3>
               </article>
+
+              </Link>
             ))}
           </div>
         </div>
